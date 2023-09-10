@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	char opr;
+	float num1, num2;
+  
+ 
+	cin >> opr;
+ 
+	cin >> num1 >> num2;
+
+	switch (opr)
+	{	
+		
+		case '+':
+			cout << num1 + num2;
+			break;
+		
+		case '-':
+			cout << num1 - num2;
+			break;
+		
+		case '*':
+			cout << num1 * num2;
+			break;
+		
+		case '/':
+			cout << num1 / num2;
+			break;
+		
+		default:
+			cout << "Error! operator is not correct";
+			
+	}
+
+	return 0;
+
+};
